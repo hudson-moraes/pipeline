@@ -42,5 +42,7 @@ jobs:
             arg1=value1
             arg2=value2
 
+      - name: Set Commitsar config path
+        run: echo "COMMITSAR_CONFIG_PATH=./.commitsar.yml" >> $GITHUB_ENV
       - name: Commitsar check
         uses: aevea/commitsar@v0.11.0
