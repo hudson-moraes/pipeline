@@ -44,5 +44,3 @@ jobs:
 
       - name: Commitsar check
         uses: aevea/commitsar@v0.11.0
-        with:
-          args: "--commits=disabled:false,strict:true,limit:0,all:false"
