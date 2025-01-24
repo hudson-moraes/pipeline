@@ -1,0 +1,5 @@
+commits:
+  disabled: false
+  strict: true
+  limit: 0
+  all: false
